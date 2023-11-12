@@ -25,16 +25,18 @@ The PWM tuning for core3566
 * core3566 相對位置是pwm8 pwm9
 
 ## 6. 測試程序
-* PWM9 (gpio32)
+* PWM9 (gpio32)，方向
 ```
 echo 0 > /sys/class/pwm/pwmchip0/export
+echo "normal" > /sys/class/pwm/pwmchip0/pwm0/polarity
 echo 20000000 > /sys/class/pwm/pwmchip0/pwm0/period
 echo 1500000 > /sys/class/pwm/pwmchip0/pwm0/duty_cycle
 echo 1 > /sys/class/pwm/pwmchip0/pwm0/enable
 ```
-* PWM8 (gpio33)
+* PWM8 (gpio33)，車速
 ```
 echo 0 > /sys/class/pwm/pwmchip1/export
+echo "normal" > /sys/class/pwm/pwmchip1/pwm0/polarity
 echo 20000000 > /sys/class/pwm/pwmchip1/pwm0/period
 echo 1500000 > /sys/class/pwm/pwmchip1/pwm0/duty_cycle
 echo 1 > /sys/class/pwm/pwmchip1/pwm0/enable
