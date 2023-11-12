@@ -17,3 +17,8 @@ The PWM tuning for core3566
 * pi 4 definition
 
   <img width="414" alt="image" src="https://github.com/itemhsu/core3566PWM/assets/25599185/c5ed69a4-fff6-498a-b6fb-3863a304c822">
+
+## 確認 pwm 使用腳位
+<img width="869" alt="image" src="https://github.com/itemhsu/core3566PWM/assets/25599185/e85d89ab-dcb7-428c-9a35-69d45dbcdce7">
+* dtoverlay=pwm-2chan,pin=12,func=4,pin2=13,func2=4 代表用pin12 pin13
+
