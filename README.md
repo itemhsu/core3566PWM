@@ -14,3 +14,6 @@ The PWM tuning for core3566
 
 <img width="922" alt="image" src="https://github.com/itemhsu/core3566PWM/assets/25599185/848f9b89-3499-4baa-951a-c3f19c5b6de0">
 
+* pi 4 definition
+
+  <img width="414" alt="image" src="https://github.com/itemhsu/core3566PWM/assets/25599185/c5ed69a4-fff6-498a-b6fb-3863a304c822">
